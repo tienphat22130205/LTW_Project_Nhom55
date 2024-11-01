@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- link swiper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- link style css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Selling Fruit</title>
+</head>
+
+<body>
+    <!-- header section stars -->
+    <header class="header">
+        <a href="#" class="logo"> <i class="fa-solid fa-shop"></i> Fruit</a>
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#features">Features</a>
+            <a href="#products">Product</a>
+            <a href="#categories">Categories</a>
+            <a href="#review">Review</a>
+            <a href="#blogs">Blogs</a>
+        </nav>
+        <div class="icons">
+            <div class="fa-solid fa-bars" id="menu-btn"></div>
+            <div class="fa-solid fa-search" id="search-btn"></div>
+            <div class="fa-solid fa-cart-shopping" id="cart-btn"></div>
+            <div class="fa-solid fa-user" id="login-btn"></div>
+        </div>
+        <form action="" class="search-form">
+            <input type="search" id="search-box" placeholder="search here...">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+        <div class="shopping-cart">
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="/img/img/dau.jpg" alt="">
+                <div class="content">
+                    <h3>Strawberry</h3>
+                    <span class="price">100000VND /</span>
+                    <span class="quantity">SL : 10</span>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="/img/img/cam.jpg" alt="">
+                <div class="content">
+                    <h3>Orange</h3>
+                    <span class="price">50000VND /</span>
+                    <span class="quantity">SL : 4</span>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="/img/img/duahau.jpg" alt="">
+                <div class="content">
+                    <h3>Watermelon</h3>
+                    <span class="price">70000VND /</span>
+                    <span class="quantity">SL : 2</span>
+                </div>
+            </div>
+            <div class="total">total : 220000VND</div>
+            <a href="#" class="btn">checkout</a>
+        </div>
+        <form action="" class="login-form">
+            <h3>Login</h3>
+            <input type="email" placeholder="Enter your email" class="box">
+            <input type="password" placeholder="Enter your password" class="box">
+            <p>Forget your password <a href="#">Click here</a></p>
+            <p>Don't have an account <a href="#">Crete now</a></p>
+            <input type="submit" value="login now" class="btn">
+        </form>
+    </header>
+
+
+    <!-- header section ends -->
+    <!-- home section starts -->
+    <section class="home" id="home">
+        <div class="content">
+            <h3>fresh and <span>green fruit </span>products for you</h3>
+            <p>Fresh, clean fruits are taken from within Vietnam and imported from foreign countries such as Thailand,
+                China, Chile,... bringing many vitamins to you.</p>
+            <a href="#" class="btn">shop now</a>
+        </div>
+    </section>
+
+    <!-- home section ends -->
+
+    <!-- features section starts -->
+    <section class="features" id="features">
+        <h1 class="heading">our <span>features</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="/img/img/fea1.jpg" alt="">
+                <h3>fresh and green</h3>
+                <p>Fresh imported and domestic fruits. Please serve your needs.</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+            <div class="box">
+                <img src="/img/img/fea2.jpg" alt="">
+                <h3>free and delivery</h3>
+                <p>Delivery anytime, anywhere, free shipping, don't wait any longer.</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+            <div class="box">
+                <img src="/img/img/fea3.jpg" alt="">
+                <h3>easy payments</h3>
+                <p>Many payment methods, depending on your payment needs.</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+    </section>
+    <!-- features section ends -->
+    <!-- products section starts-->
+    <section class="products" id="products">
+        <h1 class="heading">our <span>products</span></h1>
+        <div class="swiper product-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="/img/img/dualua.jpg" alt="">
+                    <h3>fresh melon</h3>
+                    <h3 class="price">80000VND - 150000VND</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="/img/img/duahau.jpg" alt="">
+                    <h3>fresh Watermelon</h3>
+                    <h3 class="price">80000VND - 150000VND</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="/img/img/vietquat.jpg" alt="">
+                    <h3>fresh blueberry</h3>
+                    <h3 class="price">80000VND - 150000VND</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="/img/img/nho.jpg" alt="">
+                    <h3>fresh grapes</h3>
+                    <h3 class="price">80000VND - 150000VND</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="/img/img/cam.jpg" alt="">
+                    <h3>fresh orange</h3>
+                    <h3 class="price">80000VND - 150000VND</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="/img/img/dau.jpg" alt="">
+                    <h3>fresh Strawberry</h3>
+                    <h3 class="price">80000VND - 150000VND</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+        </div>
+        <div class="swiper product-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="/img/img/chomchom.jpg" alt="">
+                    <h3>fresh rambutan</h3>
+                    <h3 class="price">80000VND - 150000VND</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="/img/img/bo.jpg" alt="">
+                    <h3>fresh avocado</h3>
+                    <h3 class="price">80000VND - 150000VND</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="/img/img/cherry.jpg" alt="">
+                    <h3>fresh cherry</h3>
+                    <h3 class="price">80000VND - 150000VND</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="/img/img/chanh.jpg" alt="">
+                    <h3>fresh lemon</h3>
+                    <h3 class="price">80000VND - 150000VND</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="/img/img/tao.jpg" alt="">
+                    <h3>fresh apple</h3>
+                    <h3 class="price">80000VND - 150000VND</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="/img/img/cachua.jpg" alt="">
+                    <h3>fresh tomato</h3>
+                    <h3 class="price">80000VND - 150000VND</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- products section end-->
+    <!-- categories section starts -->
+    <section class="categories" id="categories">
+        <h1 class="heading"> danh mục <span>sản phẩm</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="/img/img/cat5.jpg" alt="">
+                <h3>Trái cây nước ta</h3>
+                <p>Giảm giá tới 20%</p>
+                <a href="#" class="btn">mua ngay</a>
+            </div>
+            <div class="box">
+                <img src="/img/img/cat4.0.jpg" alt="">
+                <h3>Trái cây nhập khẩu</h3>
+                <p>Giảm giá tới 25%</p>
+                <a href="#" class="btn">mua ngay</a>
+            </div>
+            <div class="box">
+                <img src="/img/img/cat1.jpg" alt="">
+                <h3>Giỏ trái cây</h3>
+                <p>Giảm giá tới 45%</p>
+                <a href="#" class="btn">mua ngay</a>
+            </div>
+            <div class="box">
+                <img src="/img/img/cat2.jpg" alt="">
+                <h3>Hộp quà trái cây</h3>
+                <p>Giảm giá tới 35%</p>
+                <a href="#" class="btn">mua ngay</a>
+            </div>
+            <div class="box">
+                <img src="/img/img/cat3.0.jpg" alt="">
+                <h3>Hoa và trái cây</h3>
+                <p>Giảm giá tới 50%</p>
+                <a href="#" class="btn">mua ngay</a>
+            </div>
+            <div class="box">
+                <img src="/img/img/cat6.jpg" alt="">
+                <h3>Trái cây đặc biệt</h3>
+                <p>Giảm giá tới 25%</p>
+                <a href="#" class="btn">mua ngay</a>
+            </div>
+            <div class="box">
+                <img src="/img/img/cat7.jpg" alt="">
+                <h3>Mứt trái cây</h3>
+                <p>Giảm giá tới 40%</p>
+                <a href="#" class="btn">mua ngay</a>
+            </div>
+            <div class="box">
+                <img src="/img/img/cat8.jpg" alt="">
+                <h3>Trái cây sấy khô</h3>
+                <p>Giảm giá tới 60%</p>
+                <a href="#" class="btn">mua ngay</a>
+            </div>
+        </div>
+    </section>
+    <!-- categories section end -->
+    <!-- review section starts -->
+    <section class="review" id="review">
+        <h1 class="heading">đánh giá của <span>khách hàng</span></h1>
+        <div class="swiper review-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="/img/img/rv1.jpg" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                    <h3>MyNga</h3>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="/img/img/rv2.jpg" alt="">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis, quidem?</p>
+                    <h3>NgocHuyen</h3>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="/img/img/rv3.jpg" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat qui nulla eius odio, deserunt officia.</p>
+                    <h3>LeHuyen</h3>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="/img/img/rv4.jpg" alt="">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic!</p>
+                    <h3>QuocVu</h3>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="/img/img/rv5.jpg" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, accusamus. Voluptate, provident.</p>
+                    <h3>QuocKhanh</h3>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- review section end -->
+     <!-- blog section start -->
+    <section class="blogs" id="blogs">
+        <h1 class="heading">blog <span>của chúng tôi</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="/img/img/bl1.0.jpg" alt="">
+                <div class="content">
+                    <div class="icons">
+                        <a href="#"> <i class="fas fa-user"></i>người dùng</a>
+                        <a href="#"> <i class="fas fa-calendar"></i>1st 5/2023</a>
+                    </div>
+                    <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, sunt!</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt hic distinctio eveniet delectus, soluta laborum.</p>
+                    <a href="#" class="btn">đọc thêm</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="/img/img/bl2.jpg" alt="">
+                <div class="content">
+                    <div class="icons">
+                        <a href="#"> <i class="fas fa-user"></i>người dùng</a>
+                        <a href="#"> <i class="fas fa-calendar"></i>2st 2/2021</a>
+                    </div>
+                    <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, sunt!</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt hic distinctio eveniet delectus, soluta laborum.</p>
+                    <a href="#" class="btn">đọc thêm</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="/img/img/bl3.jpg" alt="">
+                <div class="content">
+                    <div class="icons">
+                        <a href="#"> <i class="fas fa-user"></i>người dùng</a>
+                        <a href="#"> <i class="fas fa-calendar"></i>3st 7/2023</a>
+                    </div>
+                    <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, sunt!</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt hic distinctio eveniet delectus, soluta laborum.</p>
+                    <a href="#" class="btn">đọc thêm</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+      <!-- blog section end -->
+    <!-- footer section star -->
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3><i class="fa-solid fa-shop"></i> fruit</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, optio!</p>
+                <div class="share">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="#" class="fab fa-youtube"></a>
+                    <a href="#" class="fab fa-tiktok"></a>
+                </div>
+            </div>
+            <div class="box">
+                <h3>liên hệ </h3>
+                <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, optio!</p> -->
+                <a href="#" class="links"><i class="fas fa-phone"></i>+334 286 049</a>
+                <a href="#" class="links"><i class="fas fa-phone"></i>+263 463 463</a>
+                <a href="#" class="links"><i class="fas fa-envelope"></i>phuongtran35789@gmail.com</a>
+                <a href="#" class="links"><i class="fas fa-map-marker-alt"></i>VQCR+GP6, khu phố 6, Thủ Đức, Hồ Chí Minh</a>
+            </div>
+            <div class="box">
+                <h3>liên kết</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, optio!</p>
+                <a href="#" class="links"><i class="fas fa-arrow-right"></i>home</a>
+                <a href="#" class="links"><i class="fas fa-arrow-right"></i>features</a>
+                <a href="#" class="links"><i class="fas fa-arrow-right"></i>product</a>
+                <a href="#" class="links"><i class="fas fa-arrow-right"></i>categories</a>
+                <a href="#" class="links"><i class="fas fa-arrow-right"></i>review</a>
+                <a href="#" class="links"><i class="fas fa-arrow-right"></i>blogs</a>
+            </div>
+            <div class="box">
+                <h3>bản tin</h3>
+                <p>đăng ký để cập nhật mới nhất</p>
+                <input type="email" placeholder="your email" class="email">
+                <input type="submit" value="subscribe" class="btn">
+                <div class="payments">
+                    <a href="#"><i class="fa-brands fa-cc-visa"></i></a>
+                    <a href="#"><i class="fa-solid fa-credit-card"></i></a>
+                    <a href="#"><i class="fa-solid fa-wallet"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- footer section end -->
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script src="fruit.js"></script>
+</body>
+
+</html>
